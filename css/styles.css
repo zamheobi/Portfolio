@@ -1,0 +1,259 @@
+/* Header Styles & Content */
+body {
+  background-color: rgb(255, 255, 255);
+}
+.main {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 17%;
+}
+nav > a:first-child {
+  padding-left: 30px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 30px;
+}
+nav a {
+  padding: 15px 50px;
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav ul > li:last-child {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 9px 0;
+}
+
+/* Body styles */
+main #main_Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+  border: 30px solid black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: black;
+}
+
+#main_Section article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Krona One";
+  color: white;
+  font-size: 5vw;
+  padding-bottom: 22px;
+}
+article p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+input[type="button"] {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+}
+
+/* Aside Styles Front Page */
+main aside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+aside ul > li {
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+aside ul > li:first-child {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  padding: 20px 0px;
+  font-size: 1.5rem;
+}
+
+/* ------------------------------------------------------------- */
+/* About Page Styles  */
+
+#header nav {
+  background-color: rgb(255, 255, 255);
+}
+#header a {
+  color: black;
+}
+#header nav img {
+  width: 170px;
+}
+#header nav ul > li:last-child {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 9px 0;
+}
+
+body #about {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#about > article {
+  padding: 0px 40px;
+  flex-direction: column-reverse;
+}
+
+img[alt="about Image"] {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+}
+input[value="Contact"] {
+  margin-top: 20px;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  color: black;
+  padding: 15px 35px;
+}
+h2 {
+  font-family: "Exo", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 9px 0px 0px 0px;
+  color: black;
+}
+
+#about p {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  line-height: normal;
+  padding: 10px 0px;
+}
+
+/* ------------------------------------------------------------- */
+/* WORK STYLES */
+main > h3 {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+h3 {
+  font-family: "Krona One";
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.work_page a  {
+  text-decoration: none;
+  font-family: "Krona One", sans-serif;
+  font-size: 25px;
+  color: black;
+
+}
+.work_page a:visited{
+  color: black;
+}
+
+.work_page a:hover{
+  font-size: 30px;
+}
+
+img[alt="webDes"] {
+  width: 45%;
+}
+
+section {
+  display: flex;
+}
+section article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section img {
+  margin: 25px;
+}
+.work_page p {
+  color: black;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+}
+
+/* ------------------------------------------------------------- */
+/* Sub Work */
+
+body #work > section {
+ flex-direction: column;
+}
+#work article{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#work p{
+  color: black;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  margin: auto;
+}
+
+#work section:last-child{
+  flex-direction: row;
+}
+
+#work section:last-child >img{
+  width: 50%;
+}
+
+/* Logo Designs & Illustration (Using css grid) */
+
+#css-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+}
+#css-grid img {
+  width: 40%;
+  position: relative;
+}
+
+#css-grid  p{
+  padding-top: 25px;
+  color: black;
+}
